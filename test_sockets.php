@@ -25,4 +25,5 @@ if (extension_loaded('sockets')) {
 	}
 }
 else echo "<p>Extension PHP sockets not loaded</p>\n" ;
+echo "Hello World!!!";
 ?>
