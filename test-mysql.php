@@ -10,4 +10,8 @@ echo 'Connection OK';
 $mysqli->close();
 
 var_dump(mail("ban.nishat@gmail.com", "subject", "message"));
-?>
+if($mailSuccess == true) {
+    echo "Mail sent Successfully";
+} else {
+    echo "Problem sending mail.";
+}
