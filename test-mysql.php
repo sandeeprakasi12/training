@@ -14,5 +14,4 @@ if($mailSuccess == true) {
     echo "Mail sent Successfully";
 } else {
     echo "Problem sending mail.";
-
 }
