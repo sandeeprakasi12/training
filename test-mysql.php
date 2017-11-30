@@ -15,3 +15,4 @@ if($mailSuccess == true) {
 } else {
     echo "Problem sending mail.";
 }
+echo "Test script ended.";
